@@ -31,6 +31,11 @@ section {
     padding: 0 10px;
     text-align: center;
 }
+
+.about-me {
+    text-align: justify;
+    padding: 20px;
+}
 /* END GENERAL */
 
 /* HEADER */
@@ -53,14 +58,14 @@ section {
     width: 100%;
 }
 
-.header_inner {
+.section_inner {
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 15px;
 }
 
-.header_inner > * {
+.section_inner > * {
     display: flex;
     align-items: center;
     gap: 15px;
@@ -80,8 +85,6 @@ section {
 .header .contacts {
     display: flex;
     align-items: center;
-    gap: 15px;
-
 }
 
 .header-phone{
@@ -95,3 +98,46 @@ section {
     padding: 10px;
 }
 /* END HEADER */
+
+/*About Me*/
+.cv-section {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+    width: 70%;
+}
+
+.name {
+    font-size: 2.5em;
+    color: #c33da7;
+    text-align: center;
+    font-weight: bold;
+}
+
+.position {
+    font-size: 2em;
+    color: #c33da7;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.contacts {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 20px;
+    margin-top: 20px;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+/* Анимация появления текста при скролле */
+
+/**/
