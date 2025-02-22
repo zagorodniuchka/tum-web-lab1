@@ -1,7 +1,97 @@
+/* GENERAL */
+* {
+    padding: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-right: 0;
+    margin: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 0;margin-left: 0;
+    box-sizing: border-box;
+}
+
 body {
     background-image: url('images/cv_bckgr.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
+    font-family: 'Poppins', sans-serif;
 }
+
+section {
+    width: 100%;
+}
+
+.container {
+    max-width: 1600px;
+    margin: 0 auto;
+    width: 100%;
+    padding: 0 10px;
+    text-align: center;
+}
+/* END GENERAL */
+
+/* HEADER */
+.header{
+    background: linear-gradient(135deg, #ffffff, #e1a0cf);
+    padding: 15px 15px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    color: #c33da7;
+    font-weight: bold;
+}
+
+.fixed {
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+}
+
+.header_inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+
+.header_inner > * {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.menu_item{
+    cursor: pointer;
+}
+
+.header .menu.desktop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.header .contacts {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+}
+
+.header-phone{
+    font-size:30px;
+    color:#c33da7;
+    margin-top: 5px;
+    font-size: 30px;
+}
+
+.logo{
+    padding: 10px;
+}
+/* END HEADER */
