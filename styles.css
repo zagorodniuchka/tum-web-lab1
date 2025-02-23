@@ -32,9 +32,21 @@ section {
     text-align: center;
 }
 
-.about-me {
-    text-align: justify;
+.cv-section {
+    background-color: #fff;
     padding: 20px;
+    margin: 20px auto;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+    width: 70%;
+}
+
+.section-title {
+    color: #c33da7;
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 15px;
 }
 /* END GENERAL */
 
@@ -100,24 +112,8 @@ section {
 /* END HEADER */
 
 /*About Me*/
-.cv-section {
-    background-color: #fff;
-    padding: 20px;
-    margin: 20px auto;
-    border-radius: 15px;
-    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
-    width: 70%;
-}
-
-.name {
-    font-size: 2.5em;
-    color: #c33da7;
-    text-align: center;
-    font-weight: bold;
-}
-
 .position {
-    font-size: 2em;
+    font-size: 24px;
     color: #c33da7;
     text-align: center;
     margin-bottom: 10px;
@@ -136,8 +132,67 @@ section {
     display: flex;
     align-items: center;
     gap: 5px;
+    color: #555;
 }
 
-/* Анимация появления текста при скролле */
+.about-me {
+    text-align: justify;
+    padding: 20px;
+    color: #555;
+}
+/*About Me*/
 
-/**/
+/*EDUCATION*/
+.education-inner {
+    display: flex;
+    gap: 15px;
+    align-items: flex-start;
+    margin-top: 10px;
+}
+
+.edu-left {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    max-width: 35%;
+}
+
+.edu-period {
+    color: #666;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.edu-institution {
+    color: #c33da7;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.edu-location {
+    font-style: italic;
+    color: #666;
+}
+
+.vertical-line {
+    border-left: 2px solid #c33da7;
+    height: auto;
+    margin: 0 10px;
+}
+
+.edu-right {
+    flex: 1;
+}
+
+.edu-description {
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+.edu-right ul {
+    list-style: disc;
+    margin-left: 20px;
+    line-height: 1.5;
+    color: #555;
+}
+/*EDUCATION*/
